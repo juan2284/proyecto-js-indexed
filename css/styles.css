@@ -1,0 +1,87 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../img/10.jpg');
+  background-size: 350px;
+  background-attachment: fixed;
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.header{
+  background-color: #003d75b3;
+  width: 50%;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  -ms-border-radius: 500px;
+  -o-border-radius: 500px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.subtitulo{
+  font-size: 2rem;
+  text-transform: none;
+  color: white;
+  text-align: left;
+  margin-left: 60px;
+  font-weight: 700;
+}
+
+.icono{
+  width: 100px;
+  position: absolute;
+  top: 5px;
+  right: 100px;
+}
+
+.container {
+    background-color: white;
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+
+svg {
+  width: 21px;
+}
